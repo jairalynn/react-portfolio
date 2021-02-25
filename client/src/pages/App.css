@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #ead4f6;
+  font-family: 'Raleway', sans-serif;
+ }
+ 
+.box {
+  background-color: white;
+  padding: 50px;
+
+}
+
+.containerr {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 8;
+  box-sizing: border-box;
+}
+
+.submit {
+  background-color: white;
+}
+
+#profile-picture {
+  margin: 0 20px 10px 0;
+  width: 300px;
+  float: left;
+}
+
+.portfolio-pictures {
+  padding-top: 25px;
+}
+
+.info {
+  text-align: center;
+}
+
+.col-sm-6 {
+  text-align: center;
+}
+
+.files{
+  text-align-last: center;
+  word-spacing: 10px;
+}
