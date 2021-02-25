@@ -1,9 +1,10 @@
 import React from "react";
-import { BrowserTrouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Nav from "../src/components/Nav";
 import About from "../src/pages/About";
 import Contact from "../src/pages/Contact";
 import Portfolio from "../src/pages/Portfolio";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
