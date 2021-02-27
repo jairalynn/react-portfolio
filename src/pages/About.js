@@ -2,6 +2,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import './App.css';
+import portfolio from '../images/cannonbeach.jpeg';
+import resume from '../images/JairaResume.pdf';
 
 function About() {
     return (
@@ -18,11 +20,11 @@ function About() {
                     <div className="files">
                       <a href="https://www.linkedin.com/in/jairarcilla/" target="_blank">LinkedIn</a>
                       <a href="https://github.com/jairalynn" target="_blank">Github</a>
-                      <a href="./images/JairaResume.pdf" target="_blank">Resume</a>
+                      <a href={resume} target="_blank">Resume</a>
                     </div>
                     
                     <hr/>
-                        <img className="img-fluid" id="profile-picture" src="./images/cannonbeach.jpeg" alt="picture" />
+                        <img className="img-fluid" id="profile-picture" src={portfolio} alt="picture" />
                       <p>
                         Hi, I'm Jaira Arcilla. I was born and raised here in Washington and my parents are from the Philippines.
                         I graduated from Mountlake Terrace High School in 2015 and have actually been going
