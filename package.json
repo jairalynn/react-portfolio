@@ -18,9 +18,10 @@
   "bugs": {
     "url": "https://github.com/jairalynn/react-portfolio/issues"
   },
-  "homepage": "https://github.com/jairalynn/react-portfolio#readme",
+  "homepage": "https://jairalynn.github.io/react-portfolio/",
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "gh-pages": "^3.1.0",
     "install": "^0.13.0",
     "npm": "^7.6.0",
     "react": "^17.0.1",
