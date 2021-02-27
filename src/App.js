@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Nav from "./components/Nav";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        {/* <ul>
+        <ul>
           <li>
             <Link to="/">Jaira Arcilla</Link>
           </li>
@@ -26,12 +26,12 @@ function App() {
           <li>
             <Link to="/portfolio">Portfolio</Link>
           </li>
-        </ul> */}
+        </ul>
         <Switch>
-          {<Route exact path="/" component={About}/>}
-          {<Route exact path="/about" component={About}/>}
-          {<Route exact path="/contact" component={Contact}/>}
-          {<Route exact path="/portfolio" component={Portfolio}/>}
+          <Route exact path="/" component={About}/>
+          <Route exact path="/about" component={About}/>
+          <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/portfolio" component={Portfolio}/>
         </Switch>
       </div>
     </Router>

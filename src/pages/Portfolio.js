@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import Nav from '../components/Nav'
+import projectimage from '../images/project.png'
 
 function Portfolio() {
     return(
@@ -12,7 +13,7 @@ function Portfolio() {
           <hr />
           <div className="row">
             <div className="col-sm-6 col-md-12 col-lg-6">
-              <img className="img-fluid portfolio-pictures" src="./assets/images/project.png" alt="Hike Local"/>
+              <img className="img-fluid portfolio-pictures" src={projectimage} alt="Hike Local"/>
               <p>HIKE LOCAL
                 <a href="https://snelson-seattle.github.io/HikeLocal/" target="_blank">Deployed Link</a>
                 <a href="https://github.com/snelson-seattle/HikeLocal" target="_blank">GitHub Page</a>

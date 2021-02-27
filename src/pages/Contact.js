@@ -3,7 +3,8 @@ import Nav from '../components/Nav';
 import './App.css';
 
 function Contact() {
-    <div class="containerr">
+  return(
+    <div class="container">
         <form>
             <h2>Contact</h2>
             <div class="form-group">
@@ -22,7 +23,7 @@ function Contact() {
             <input type="submit" value="Submit" id="inputcolor" />
           </form>
         </div>
-
+  )
 }
 
 export default Contact;
