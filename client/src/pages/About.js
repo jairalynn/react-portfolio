@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
-import './style.css';
+import './App.css';
 
 function About() {
     return (

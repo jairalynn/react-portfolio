@@ -81,3 +81,7 @@ body {
   text-align-last: center;
   word-spacing: 10px;
 }
+
+#inputcolor {
+  background-color: white;
+}
